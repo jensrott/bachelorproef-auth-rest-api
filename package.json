@@ -1,0 +1,25 @@
+{
+  "name": "demonstrator-api",
+  "version": "1.0.0",
+  "description": "Api that is used in the demonstrator site for my bachelor thesis",
+  "scripts": {
+    "reload": "nodemon app.js",
+    "dev": "node app.js",
+    "start": "npm run reload"
+  },
+  "author": "Jens Rottiers",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.1",
+    "volleyball": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
