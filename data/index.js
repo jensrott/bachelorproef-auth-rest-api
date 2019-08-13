@@ -41,7 +41,7 @@ let data = [
     id: 3,
     title: "8-relays board",
     description:
-      "Het 8-relays board zorgt voor het schakelen van de lichtpunten. De relays aangestuurd door de GPIO's van de Raspberry Pi.",
+      "Het 8-relays board zorgt voor het schakelen van de lichtpunten. De relays worden aangestuurd door de GPIO's van de Raspberry Pi.",
     landing_image: "https://i.imgur.com/95FVM38.jpg",
     images: [
       { url: "https://i.imgur.com/RkjVCuX.jpg", text: "8-Relay board" }
@@ -83,7 +83,7 @@ let data = [
     id: 6,
     title: "Smart Phone Controle Apps",
     description:
-      "De demonstrator kan men eenvoudig besturen via een smart phone app. Een voorbeeld is Ariela, een controle app voor Android. Voor Apple apparaten is dit Home Assistant Companion.",
+      "De demonstrator kan men eenvoudig besturen via een smart phone app. Een voorbeeld is Ariela, een controle app voor Android. Voor Apple apparaten is dit Home Assistant Companion. Daarnaast is ook een integratie voorzien met de Google Assistant app (spraakcontrole).",
     landing_image: "https://i.imgur.com/zwcX4yA.jpg",
     images: [
       { url: "https://i.imgur.com/HevUMWx.jpg", text: "" },
@@ -97,19 +97,19 @@ let data = [
     title: "HA controle dashboard",
     description:
       "Het Home Assistant controle dashboard biedt een gebruiksvriendelijke, personalizeerbare interface aan voor de eindgebruiker. Dit dashboard kan zowel lokaal als op afstand opgeroepen worden via de web browser.",
-    landing_image: "https://i.imgur.com/IUbtVXG.jpg",
+    landing_image: "https://i.imgur.com/neUIACo.jpg",
     /* For the dashboard we use movies */
     movies: [
       {
-        url: "https://www.youtube.com/watch?v=cDUHUZvyPMc",
+        url: "https://www.youtube.com/watch?v=g5bNMZog82c&feature=youtu.be",
         text: "Lichtcontrole"
       },
       {
-        url: "https://www.youtube.com/watch?v=BsUteJGAuRk",
+        url: "https://www.youtube.com/watch?v=ICBa4EuNLEc&feature=youtu.be",
         text: "Sensor Monitoring"
       },
       {
-        url: "https://www.youtube.com/watch?v=dTW2MxfqVLI",
+        url: "https://www.youtube.com/watch?v=voGlutpmacs&feature=youtu.be",
         text: "Systeem Services"
       }
     ],
