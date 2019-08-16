@@ -12,14 +12,6 @@ let data = [
       {
         url: "https://i.imgur.com/AYFecLS.jpg",
         text: "Raspberry Pi met Z-wave dongle en relay board"
-      },
-      {
-        url: "https://i.imgur.com/Q3Xu1Is.jpg",
-        text: "Hass.io systeem dashboard"
-      },
-      {
-        url: "https://i.imgur.com/bUToiqL.jpg",
-        text: "Hass.io overzicht"
       }
     ],
     link: ""
@@ -43,11 +35,7 @@ let data = [
     description:
       "Het 8-relays board zorgt voor het schakelen van de lichtpunten. De relays worden aangestuurd door de GPIO's van de Raspberry Pi.",
     landing_image: "https://i.imgur.com/95FVM38.jpg",
-    images: [
-      { url: "https://i.imgur.com/RkjVCuX.jpg", text: "8-Relay board" }
-      // { url: "https://i.imgur.com/IxQwkaz.jpg", text: "text" },
-      // { url: "https://i.imgur.com/IxQwkaz.jpg", text: "text" }
-    ],
+    images: [{ url: "https://i.imgur.com/RkjVCuX.jpg", text: "8-Relay board" }],
     link:
       "https://www.amazon.com/SainSmart-101-70-103-16-Channel-Relay-Module/dp/B0057OC66U"
   },
@@ -86,9 +74,12 @@ let data = [
       "De demonstrator kan men eenvoudig besturen via een smart phone app. Een voorbeeld is Ariela, een controle app voor Android. Voor Apple apparaten is dit Home Assistant Companion. Daarnaast is ook een integratie voorzien met de Google Assistant app (spraakcontrole).",
     landing_image: "https://i.imgur.com/zwcX4yA.jpg",
     images: [
-      { url: "https://i.imgur.com/HevUMWx.jpg", text: "" },
-      { url: "https://i.imgur.com/4PbFXQc.jpg", text: "" },
-      { url: "https://i.imgur.com/IUbtVXG.jpg", text: "" }
+      {
+        url: "https://i.imgur.com/O4TvIlc.jpg",
+        text: "Google Assistant Android"
+      },
+      { url: "https://i.imgur.com/4PbFXQc.jpg", text: "Controle dashboard" },
+      { url: "https://i.imgur.com/VtLkvag.jpg", text: "Google Assistant iOS" }
     ],
     link: "http://ariela.surodev.com/"
   },
@@ -97,8 +88,8 @@ let data = [
     title: "HA controle dashboard",
     description:
       "Het Home Assistant controle dashboard biedt een gebruiksvriendelijke, personalizeerbare interface aan voor de eindgebruiker. Dit dashboard kan zowel lokaal als op afstand opgeroepen worden via de web browser.",
-    landing_image: "https://i.imgur.com/neUIACo.jpg",
-    /* For the dashboard we use movies */
+    landing_image: "https://i.imgur.com/489GGt0.jpg",
+    /* For the dashboard we use movies to demonstrate */
     movies: [
       {
         url: "https://www.youtube.com/watch?v=g5bNMZog82c&feature=youtu.be",
