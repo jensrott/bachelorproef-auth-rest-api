@@ -14,7 +14,7 @@ let data = [
         text: "Raspberry Pi met Z-wave dongle en relay board"
       }
     ],
-    link: ""
+    link: "https://www.home-assistant.io/hassio/"
   },
   {
     id: 2,
@@ -26,8 +26,7 @@ let data = [
       { url: "https://i.imgur.com/Yh1tx5J.jpg", text: "Zijkant" },
       { url: "https://i.imgur.com/9nXjVIX.jpg", text: "Achterkant" },
       { url: "https://i.imgur.com/F9FblwQ.jpg", text: "met LEDs" }
-    ],
-    link: ""
+    ]
   },
   {
     id: 3,
@@ -131,7 +130,8 @@ let data = [
       { url: "https://i.imgur.com/2rKydSL.jpg", text: "Bose luidspreker" },
       { url: "https://i.imgur.com/hhBWIom.jpg", text: "Bose luidspeker" }
     ],
-    link: ""
+    link:
+      "https://www.coolblue.be/nl/product/386826/sonos-play-1-zwart.html?cmt=c_a,cp_2070842088,a_76054454106,t_aud-766811849418:pla-593399754360,n_g,d_c&gclid=Cj0KCQjwy97qBRDoARIsAITONTJYuNmPrm_WlLgvDEnfIKBXMObFJeMDmM8Qiymc0X2KSa-u_oxdg-MaAhhnEALw_wcB"
   }
 ];
 
